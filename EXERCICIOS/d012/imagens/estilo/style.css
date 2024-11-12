@@ -1,0 +1,138 @@
+@charset "UTF-8";
+ * {
+    margin: 0px;
+    padding: 0px;
+ }
+
+ html, body {
+    min-height: 100vh;
+    background-color: white;
+ }
+ header {
+    background-color: #e42518;
+    color: white;
+    text-align: center;
+ }
+ header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+ }
+ header > p {
+    padding-bottom: 50px;
+ }
+ 
+ a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+ }
+
+ a:hover {
+    text-decoration: underline;
+ }
+
+ section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+
+ }
+
+
+section.inicio {
+    background-color: white;
+    color: white;
+
+}
+section.inicio > p {
+    width: 500px;
+    padding-left: 10px;
+    background-color:#39AA59 ;
+
+}
+
+section.iniciocarreira {
+    
+    background-color: white;
+    color: white;
+}
+section.iniciocarreira > p {
+    width: 500px;
+    background-color: #39AA59;
+    padding-left: 10px;
+}
+
+section.sportin {
+    background-color: white;
+    color: white;
+
+}
+section.sportin > p{
+    width: 500px;
+    background-color: #39AA59;
+    padding-left: 10px;
+}
+
+section.united{
+    background-color: white;
+    color: white;
+}
+
+section.united > p {
+    width: 500px;
+    background-color: #39AA59;
+    padding-left: 10px;
+}
+
+section.realmadrid {
+    background-color: white;
+    color: white;
+}
+
+section.realmadrid > p {
+    width: 500px;
+    background-color: #39AA59;
+    padding-left: 10px;
+}
+
+section.juventus {
+    background-color: white;
+    color: white;
+}
+
+section.juventus > p {
+    width: 500px;
+    background-color: #39AA59;
+    padding-left: 10px;
+}
+
+section.backtounited{
+    background-color: white;
+    color: white;
+}
+
+section.backtounited > p {
+    width: 500px;
+    background-color: #39AA59;
+    padding-left: 10px;
+}
+
+section.arabia {
+    background-color: white;
+    color: white;
+}
+
+section.arabia > p {
+    width: 500px;
+    background-color: #39AA59;
+    padding-left: 10px;
+}
+    
+    
+ footer {
+    background-color: #017a35;
+    color: white;
+    text-align: center;
+    padding: 10px;
+ }
