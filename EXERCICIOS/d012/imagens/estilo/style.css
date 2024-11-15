@@ -58,7 +58,10 @@
     font-family: var(--font3);
     font-size: 1.5em;
 
- }
+}
+section > p {
+    padding-bottom: 1em;
+}
 
 
 section.inicio {
@@ -69,7 +72,7 @@ section.inicio {
 section.inicio > p {
     width: 500px;
     padding-left: 10px;
-    background-color:#39AA59 ;
+    background-color:#39aa5939 ;
 
 }
 
@@ -80,7 +83,7 @@ section.iniciocarreira {
 }
 section.iniciocarreira > p {
     width: 500px;
-    background-color: #39AA59;
+    background-color: #39aa5939;
     padding-left: 10px;
 }
 
@@ -147,7 +150,23 @@ section.arabia {
 section.arabia > p {
     width: 500px;
     background-color: #39AA59;
-    padding-left: 10px;
+    padding-left: 10px; 
+}
+
+section#img01 {
+    background-image: url(../paiemaocris.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+section#img02 {
+    background-image: url(../cridandorinha.jpeg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
     
     
